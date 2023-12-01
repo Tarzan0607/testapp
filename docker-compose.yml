@@ -1,0 +1,7 @@
+services:
+  mytestapp:
+    build: ./ 
+    ports:
+      - 8080:3000
+    container_name: 'mytestapp' 
+    
